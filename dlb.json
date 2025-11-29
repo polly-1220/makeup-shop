@@ -1,0 +1,56 @@
+{
+  "store": {
+    "id": 1,
+    "name": "CosmoBeauty",
+    "type": "cosmetics_shop"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Olena",
+      "email": "olena@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Iryna",
+      "email": "iryna@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Maksym",
+      "email": "maksym@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Sofiia",
+      "email": "sofia@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Taras",
+      "email": "taras@example.com"
+    }
+  ],
+  "products": [
+    { "id": 1,  "name": "Lipstick Red Velvet", "price": 199,  "user_id": 1 },
+    { "id": 2,  "name": "Matte Foundation", "price": 349,      "user_id": 2 },
+    { "id": 3,  "name": "Eye Shadow Palette", "price": 499,    "user_id": 3 },
+    { "id": 4,  "name": "Black Eyeliner", "price": 129,        "user_id": 4 },
+    { "id": 5,  "name": "Nourishing Face Cream", "price": 289, "user_id": 5 },
+    { "id": 6,  "name": "Hydrating Toner", "price": 219,       "user_id": 1 },
+    { "id": 7,  "name": "Hair Serum Repair", "price": 329,     "user_id": 2 },
+    { "id": 8,  "name": "BB Cream Light", "price": 259,        "user_id": 3 },
+    { "id": 9,  "name": "Face Mask Aloe", "price": 99,         "user_id": 4 },
+    { "id": 10, "name": "Nail Polish Pink", "price": 79,       "user_id": 5 },
+    { "id": 11, "name": "Micellar Water", "price": 149,        "user_id": 1 },
+    { "id": 12, "name": "Shampoo Volume Boost", "price": 199,  "user_id": 2 },
+    { "id": 13, "name": "Conditioner Silk Touch", "price": 229,"user_id": 3 },
+    { "id": 14, "name": "Body Lotion Vanilla", "price": 189,   "user_id": 4 },
+    { "id": 15, "name": "Perfume Floral", "price": 799,        "user_id": 5 },
+    { "id": 16, "name": "Hand Cream Soft", "price": 89,        "user_id": 1 },
+    { "id": 17, "name": "Face Scrub Gentle", "price": 159,     "user_id": 2 },
+    { "id": 18, "name": "Hair Mask Keratin", "price": 259,     "user_id": 3 },
+    { "id": 19, "name": "Lip Balm Honey", "price": 69,         "user_id": 4 },
+    { "id": 20, "name": "Sunscreen SPF50", "price": 349,       "user_id": 5 }
+  ]
+}
