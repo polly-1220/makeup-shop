@@ -1,0 +1,97 @@
+body {
+     margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe3ec, #ffd1e8, #ffc4e1);
+    background-attachment: fixed;
+}
+
+
+header {
+    background: #ff5c8a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.product {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.25s ease;
+    text-align: center;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+
+.product h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff2d6a;
+    margin: 10px 0;
+}
+
+
+.desc {
+    font-size: 14px;
+    color: #666;
+    min-height: 40px;
+    margin-bottom: 15px;
+}
+
+
+.product a {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #ff5c8a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.product a:hover {
+    background: #ff2d6a;
+}
+
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff2d6a;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    min-height: 40px;
+}
