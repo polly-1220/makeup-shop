@@ -13,6 +13,9 @@ header {
     text-align: center;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 1rem
 }
 
 header h1 {
@@ -94,4 +97,84 @@ main {
     color: #666;
     margin-bottom: 15px;
     min-height: 40px;
+}
+
+.cartWrapper {
+    position: relative;
+    width: fit-content;
+}
+
+
+.cart {
+     position: absolute;
+    width: 300px;
+    right: -0.5rem;
+    top: 2.3rem;
+    background-color: #fff;
+    border-radius: 12px;
+    display: none; /* відкривається через JS */
+    z-index: 5;
+    color: #333;
+    flex-direction: column;
+    padding: 12px;
+    gap: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cart li {
+    list-style: none;
+    background-color: #ff5c8a;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cart p {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.cart button {
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff5c8a, #ff2d6a);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+
+
+.cart button:hover {
+    background: linear-gradient(135deg, #ff2d6a, #e6004c);
+    transform: scale(1.03);
+}
+
+.cart button:active {
+    transform: scale(0.97);
+}
+
+
+
+
+.cart:before {
+    content: "";
+    height: 0.3rem;
+    z-index: -1;
+    position: absolute;
+    bottom: 4rem;
+    right: 0.2rem;
+    border: 1rem solid transparent;
+    border-top-width: 0;
+    border-bottom-color: white;
+    border-bottom-width: 1rem;
 }
